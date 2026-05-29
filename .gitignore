@@ -10,9 +10,17 @@ build/
 dist/
 outputs/
 demo_outputs/
+experiments/work_dir/
+experiments/outputs/
+experiments/data/*.pkl
+experiments/data/csm_index.json
+experiments/data/streetview_cache/
 checkpoints/
 skyseg.onnx
 skyseg.onnx.tmp
+RenderOption_*.json
+ViewTrajectory_*.json
 *.pt
 *.pth
 *.safetensors
+csm-devkit
